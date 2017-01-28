@@ -1,0 +1,14 @@
+Package: DineSafeR
+Title: Implementation of the King County (WA) ''Dine Safe'' restaurant
+        grading algorithm
+Version: 0.1
+Date: 2016-03-29
+Author: Daniel E. Ho <dho@law.stanford.edu>, Zoe Ashwood <zashwood@law.stanford.edu>, Becky Elias <Becky.Elias@kingcounty.gov>
+Maintainer: Zoe Ashwood <zashwood@law.stanford.edu>
+Description: The core functions, findCutoffs and gradeAllBus, allow jurisdictions to implement grading systems (for restaurant grading or otherwise) based on percentile cutoffs within smaller subunits (e.g. ZIP codes) of the jurisdiction. Percentiles are carefully chosen so that grading proportions in this ''adjusted grading system'' match grading proportions in a so-called ''unadjusted grading system''. An unadjusted grading system uses inspection scores that are meaningful within the inspection system as grade cutoff points, and applies these same cutoff scores across all subunits.
+Depends: R (>= 3.2.3)
+License: GPL (>= 2)
+LazyData: TRUE
+RoxygenNote: 5.0.1
+NeedsCompilation: no
+Packaged: 2017-01-28 02:37:51 UTC; zoeashwood
